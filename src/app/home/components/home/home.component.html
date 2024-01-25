@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="card">
+    <img [src]="user?.avatar" class="avatar" alt="avatar">
+    <h2>{{user?.name}}</h2>
+    <ul>
+      <li>Age: {{user?.age}}</li>
+      <li>Job: {{user?.job}}</li>
+    </ul>
+      <button  type="button" (click)="logout()">Logout</button>
+  </div>
+</div>
